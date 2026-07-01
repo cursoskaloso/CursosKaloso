@@ -1,7 +1,19 @@
-CURSOS KALOSO - WEB INICIAL
+KALOSO PRO WEB
 
-Subir a GitHub Pages:
+Subir a GitHub:
 - index.html
 - styles.css
+- script.js
+- carpeta assets completa
 
-Después crear un repositorio, activar Pages y publicar.
+Incluye:
+- Logo Kaloso
+- Imagen del pack
+- Catálogo
+- Pack destacado
+- Calculadora de ganancias
+- Área de alumnos visual preparada para futuro login
+
+Próximo paso:
+- Conectar usuarios reales con Supabase
+- Conectar pagos con Mercado Pago
