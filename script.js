@@ -1,6 +1,8 @@
-const phones = document.getElementById("phones");
-const profit = document.getElementById("profit");
+const buyPrice = document.getElementById("buyPrice");
+const sellPrice = document.getElementById("sellPrice");
+const quantity = document.getElementById("quantity");
 const result = document.getElementById("result");
+const singleResult = document.getElementById("singleResult");
 
 function formatMoney(value) {
   return value.toLocaleString("es-AR", {
@@ -11,11 +13,14 @@ function formatMoney(value) {
 }
 
 function updateCalc() {
-  const qty = Number(phones.value || 0);
-  const gain = Number(profit.value || 0);
-  result.textContent = formatMoney(qty * gain);
+  const buy = Number(buyPrice.value || 0);
+  const sell = Number(sellPrice.value || 0);
+  const qty = Number(quantity.value || 0);
+  const single = sell - buy;
+  const total = single * qty;
+  result.textContent = formatMoney(total);
+  singleResult.textContent = "Ganancia por equipo: " + formatMoney(single);
 }
 
-phones?.addEventListener("input", updateCalc);
-profit?.addEventListener("input", updateCalc);
+[buyPrice, sellPrice, quantity].forEach(input => input?.addEventListener("input", updateCalc));
 updateCalc();

@@ -1,4 +1,4 @@
-KALOSO PRO WEB
+KALOSO PRO PLUS
 
 Subir a GitHub:
 - index.html
@@ -6,14 +6,10 @@ Subir a GitHub:
 - script.js
 - carpeta assets completa
 
-Incluye:
-- Logo Kaloso
-- Imagen del pack
-- Catálogo
-- Pack destacado
-- Calculadora de ganancias
-- Área de alumnos visual preparada para futuro login
-
-Próximo paso:
-- Conectar usuarios reales con Supabase
-- Conectar pagos con Mercado Pago
+Cambios:
+- WhatsApp actualizado a 11 7898-5081
+- Landing más premium
+- Pack más vendedor
+- Bonus incluidos
+- Calculadora mejorada
+- Área de alumnos visual
