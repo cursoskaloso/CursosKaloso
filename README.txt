@@ -1,4 +1,4 @@
-KALOSO PRO PLUS
+KALOSO - LANDING DE VENTA
 
 Subir a GitHub:
 - index.html
@@ -6,10 +6,4 @@ Subir a GitHub:
 - script.js
 - carpeta assets completa
 
-Cambios:
-- WhatsApp actualizado a 11 7898-5081
-- Landing más premium
-- Pack más vendedor
-- Bonus incluidos
-- Calculadora mejorada
-- Área de alumnos visual
+WhatsApp correcto: 11 7898-5081
